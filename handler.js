@@ -26,7 +26,7 @@ const addNotesHandler = (req, h) => {
         nodeId: id,
       }
     });
-    response.code(200);
+    response.code(201);
 
     response.header('Access-Control-Allow-Origin', '*');
     return response;
